@@ -35,6 +35,13 @@ Learn how to:
 
 - We will start this workshop from the Azure Cloud Shell, as described in that repository.
 
+- To start your cluster, reload the environment variables create in your Azure Cloud Shell first and then start the cluster. Use the following command:
+
+  ```bash
+  source ~/workshopvars.env
+  az aks start --resource-group $RESOURCE_GROUP --name $CLUSTERNAME
+  ```
+
 ## Modules
 
 This workshop is organized in sequencial modules. One module will build up on top of the previous module, so please, follow the order as proposed below.

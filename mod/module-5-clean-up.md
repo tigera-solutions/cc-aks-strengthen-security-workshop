@@ -39,6 +39,7 @@
 6. Delete this cloned repository
 
    ```bash
+   cd ../..
    rm -Rf cc-aks-strengthen-security-workshop
    ```
 ---
