@@ -13,7 +13,7 @@ resource "azurerm_subnet" "subnet" {
 }
 
 resource "azurerm_public_ip" "external_ip" {
-  name                = "acceptanceTestPublicIp1"
+  name                = "workshop-public-ip"
   resource_group_name = var.resource_group_name 
   location            = var.location
   allocation_method   = "Static"
