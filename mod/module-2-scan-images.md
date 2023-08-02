@@ -45,6 +45,11 @@
    - Using the output command from the terrafom, ssh into the virtual machine.
 
      <pre>
+     Apply complete! Resources: 5 added, 0 changed, 0 destroyed.
+
+     Outputs:
+
+     ssh_command = "ssh -i ~/.ssh/id_rsa adminuser@20.63.41.254"
      </pre>
 
    - Scale the priviledge to root
@@ -165,6 +170,12 @@ After the scan results were uploaded to Calico Cloud, we don't need the virtual 
 
 ```bash
 terraform destroy -auto-approve
+```
+
+Return to the git cloned repository root directory:
+
+```bash
+cd ..
 ```
 
 --- 

@@ -3,7 +3,7 @@ variable "location" {
   default = "canadacentral"
 }
 
-variable "resource_group_name " {
+variable "resource_group_name" {
   type = string
   default = "tigera-workshop"
 }

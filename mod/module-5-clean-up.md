@@ -3,6 +3,7 @@
 1. Delete application stack to clean up any `loadbalancer` services.
 
    ```bash
+   kubectl delete -f web
    kubectl delete -f pre/004-vote-app-manifest.yaml
    ```
 
