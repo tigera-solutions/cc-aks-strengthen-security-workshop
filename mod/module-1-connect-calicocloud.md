@@ -18,7 +18,7 @@ Issues with being unable to navigate menus in the UI are often due to browsers b
 
 3. Once you have access to your **Calico Cloud** environment, go to step 2:
 
-## Step 2 - Connecting your cluster to Calico Cloud.
+## Step 2 - Connect your cluster to Calico Cloud.
 
 1. The welcome screen will allow you to choose among four use cases and will provide a guided tour for each use case. After that, you can proceed to connect your first cluster. This option directs you to the **Managed Clusters** section. Click on the "**Connect Cluster**" button to start the process.
 
@@ -85,9 +85,9 @@ Issues with being unable to navigate menus in the UI are often due to browsers b
 
     ![installing](https://user-images.githubusercontent.com/104035488/188036070-71cd3cb7-639b-46f2-bd5e-dbdb401b48e3.gif)
 
-## STEP 3 - Selecting your cluster.
+## STEP 3 - Select your cluster.
 
-Once the installation is completed, you can to start interacting with your cluster from the Calico Cloud interface. Calico Cloud provides a single pane of glass for managing multiple clusters. If you followed the previous steps, you would have two clusters connected to Calico Cloud at this point: Your cluster and a pre-configured lab cluster that allows you to explore some of the features in Calico Cloud.
+Once the installation is completed, you can start interacting with your cluster from the Calico Cloud interface. Calico Cloud provides a single pane of glass for managing multiple clusters. If you followed the previous steps, you would have two clusters connected to Calico Cloud at this point: Your cluster and a pre-configured lab cluster that allows you to explore some of the features in Calico Cloud.
 
 You can switch between clusters by following the steps below:
 
@@ -100,7 +100,7 @@ You can switch between clusters by following the steps below:
    ![selecting_cluster](https://user-images.githubusercontent.com/104035488/188036074-857e6a19-7641-4dff-9f6b-02eb627cf748.gif)
 
 The "**Cluster**" dropdown button will always be visible across the Calico Cloud UI, no matter which section you are viewing. You can change the cluster you want to interact with at any moment. 
-When you change the cluster, the whole Calico Cloud context will change immediately to reflect the information regarding the currently selected cluster.
+When you change the cluster, the Calico Cloud context will change immediately to reflect the information regarding the currently selected cluster.
 
 --- 
 

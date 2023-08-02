@@ -17,7 +17,7 @@
      cd tfm
      ```
 
-   - Run the following command to load the environment variables used during the AKS cluster creation
+   - Run the following command to load the environment variables used during the AKS cluster creation.
      
      ```bash
      source ~/workshopvars.env
@@ -62,7 +62,7 @@ You are read for testing the tigera-scanner
 
 ## Pull the images to be scanned
 
-Lets pull two images:
+Let's pull two images:
 
 1. Pull the website image website:v1.0.0
 
@@ -78,7 +78,7 @@ Lets pull two images:
 
 ## Scan the images
 
-1. First, let's scan the images locally, without exporting the results to Calico Cloud.
+1. First, let's scan the images locally without exporting the results to Calico Cloud.
 
    ```bash
    tigera-scanner scan registry.hub.docker.com/regisftm/website:v1.0.0 | more

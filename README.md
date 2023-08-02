@@ -6,7 +6,7 @@ In this AKS-centric workshop, participants will work closely with Calico Cloud, 
 
 The purpose of this repository is to offer you a comprehensive, step-by-step guide on registering your AKS cluster on Calico Cloud, and securing your cloud-native applications to meet compliance requirements. Although Calico Cloud provides a wide range of functionalities and security features, this workshop will concentrate on a few key features used to protect your workload in runtime and deployment time. If you would like to delve deeper into this topic, please don't hesitate to contact us.
 
-## Time Requeriments
+## Time Requirements
 
 The estimated time to complete this workshop is 60-90 minutes.
 
@@ -27,7 +27,7 @@ Learn how to:
 
 ## Workshop Environment Preparation
 
-> :warning: **For this workshop it is expected that you have access to an AKS cluster previously created.**
+> :warning: **For this workshop, you are expected to have access to a previously created AKS cluster.**
 
 - Please, follow the instructions on the repository below if you don't have it ready: 
 
@@ -44,7 +44,7 @@ Learn how to:
 
 ## Modules
 
-This workshop is organized in sequencial modules. One module will build up on top of the previous module, so please, follow the order as proposed below.
+This workshop is organized in sequential modules. One module will build up on top of the previous module, so please, follow the order as proposed below.
 
 Module 1 - [Connect the EKS cluster to Calico Cloud](/mod/module-1-connect-calicocloud.md)  
 Module 2 - [Scan Container Images](/mod/module-2-scan-images.md)  
