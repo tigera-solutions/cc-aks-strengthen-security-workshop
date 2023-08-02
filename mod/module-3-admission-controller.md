@@ -2,7 +2,7 @@
 
 1. Configure the Admission Controller.
 
-   Calico Cloud uses the Admission Controller to accept or reject resources that create pods based on configured ContainerAdmissionPolicies    rules. For more information refer to Calico Cloud Admission Controller documentation.
+   Calico Cloud uses the Admission Controller to accept or reject resources that create pods based on configured `ContainerAdmissionPolicies` rules. For more information, refer to Calico Cloud Admission Controller documentation.
 
    Instructions for **Linux**:
 
@@ -20,7 +20,7 @@
    kubectl apply -f ./tigera-image-assurance-admission-controller-deploy.yaml && cd ..
    ```
 
-   > The Admission Controller only watches the namespaces it is configured to track. You can configure namespace label via `IN_NAMESPACE_SELECTOR_KEY` and `IN_NAMESPACE_SELECTOR_VALUES` variables used in the commands above. Explore    `tigera-image-assurance-admission-controller-deploy.yaml` manifest to see how those values are configured.
+   > The Admission Controller only watches the namespaces it is configured to track. You can configure the namespace label via `IN_NAMESPACE_SELECTOR_KEY` and `IN_NAMESPACE_SELECTOR_VALUES` variables used in the commands above. Explore    `tigera-image-assurance-admission-controller-deploy.yaml` manifest to see how those values are configured.
 
 2. Configure container admission policies.
 
@@ -82,12 +82,12 @@
 
 5. Create the exceptions in the Calico Cloud UI.
 
-   The deployment will not be allowed to be created because the image failed to the scanning process.
-   When this happen ideally you should fix the vulneabilities in the image before trying to deploy it again. However we know that this can be a slow and cumbersome process. As a workaround after evaluation the impact of the detected vulnerabilities, you may decide to create **exceptions** for the CVE's in the image, changing its status from `Fail` to `Warn`.
+   The deployment will not be allowed to be created because the image failed the scanning process.
+   When this happens, you should fix the vulneabilities in the image before trying to deploy it again. However, we know that this can be a slow and cumbersome process. As a workaround, after evaluating the impact of the detected vulnerabilities, you may create **exceptions** for the CVE's in the image, changing its status from `Fail` to `Warn`.
 
    ![exception](https://user-images.githubusercontent.com/104035488/207643561-ed2eec90-03a8-4fc7-a085-c845121fd21a.gif)
 
-6. Try to create the deployment again
+6. Try to create the deployment again.
 
    ```bash
    kubectl apply -f web

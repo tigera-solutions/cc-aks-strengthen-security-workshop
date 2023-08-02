@@ -1,6 +1,6 @@
 # Module 5 - Clean up
 
-1. Delete application stack to clean up any `loadbalancer` services.
+1. Delete the applications stack to clean up any `loadbalancer` services.
 
    ```bash
    kubectl delete -f web
@@ -15,7 +15,7 @@
      --name $CLUSTERNAME
    ```
 
-3. If you didn't yet, delete the virtual machine create with terraform for the `tigera-scanner` tests.
+3. If you didn't yet, delete the virtual machine created with terraform for the `tigera-scanner` tests.
 
    ```bash
    cd tfm
