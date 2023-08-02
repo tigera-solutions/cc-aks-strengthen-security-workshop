@@ -128,11 +128,11 @@ Let's pull two images:
    Export the values to enviroment variables:
 
    ```bash
-   export APIURL=< paste the api url here! >
+   export APIURL=
    ```
 
    ```bash
-   export APITOKEN=< paste the api token here! >
+   export APITOKEN=
    ```
 
    Run the `tigera-scanner` passing the `apiurl` and `token` parameters, so the result will be exported to Calico Cloud.
