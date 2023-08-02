@@ -27,7 +27,7 @@ Learn how to:
 
 ## Workshop Environment Preparation
 
-   > **NOTE**: For this workshop it is expected that you have access to an AKS cluster previously created.
+> **NOTE**: For this workshop it is expected that you have access to an AKS cluster previously created.
 
 - Please follow the instructions on the repository below, if you don't have it ready: 
 
