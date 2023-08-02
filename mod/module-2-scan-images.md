@@ -14,7 +14,7 @@
    - Change directory to the terraform folder inside this repository.
 
      ```bash
-     cd terraform
+     cd tfm
      ```
 
    - Run the following command to load the environment variables used during the AKS cluster creation

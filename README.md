@@ -29,7 +29,7 @@ Learn how to:
 
 > :warning: **For this workshop it is expected that you have access to an AKS cluster previously created.**
 
-- Please follow the instructions on the repository below, if you don't have it ready: 
+- Please, follow the instructions on the repository below if you don't have it ready: 
 
   [Calico Cloud on AKS - Workshop Environment Preparation](https://github.com/tigera-solutions/aks-workshop-prep)
 

@@ -1,7 +1,7 @@
 
 # Module 1 - Connect your EKS cluster to Calico Cloud
 
-> **NOTE**: To complete this module, you will need a [Calico Cloud account](https://www.calicocloud.io/). If you are participating in a live workshop, you will receive an invite with the information to login into an active Calico Cloud environment. Once logged in,  join your AKS cluster there.
+> :warning: To complete this module, you will need a [Calico Cloud account](https://www.calicocloud.io/). If you are participating in a live workshop, you will receive an invite with the information to login into an active Calico Cloud environment. Once logged in,  join your AKS cluster there.
 If you are running this workshop in a self-paced mode, you can create a Calico Cloud environment following the steps [here](/modules/submodule-1.1-create-calicloud.md).  
 
 Issues with being unable to navigate menus in the UI are often due to browsers blocking scripts - please ensure that you disable all blocker scripts.
