@@ -4,8 +4,6 @@
 
    Calico Cloud uses the Admission Controller to accept or reject resources that create pods based on configured ContainerAdmissionPolicies    rules. For more information refer to Calico Cloud Admission Controller documentation.
 
-   Configure the Admission Controller.
-
    Instructions for **Linux**:
 
    ```bash
