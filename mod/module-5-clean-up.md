@@ -18,7 +18,7 @@
 3. If you didn't yet, delete the virtual machine create with terraform for the `tigera-scanner` tests.
 
    ```bash
-   cd terraform
+   cd tfm
    source ~/workshopvars.env 
    terraform destroy -auto-approve
    ```
