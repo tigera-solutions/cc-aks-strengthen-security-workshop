@@ -33,7 +33,7 @@ Learn how to:
 
   [Calico Cloud on AKS - Workshop Environment Preparation](https://github.com/tigera-solutions/aks-workshop-prep)
 
-- We will start this workshop from the Azure Cloud Shell, as described in that repository.
+- We will run this workshop from the Azure Cloud Shell, as described in that repository.
 
 - To start your cluster, reload the environment variables create in your Azure Cloud Shell first and then start the cluster. Use the following command:
 
@@ -46,7 +46,7 @@ Learn how to:
 
 This workshop is organized in sequential modules. One module will build up on top of the previous module, so please, follow the order as proposed below.
 
-Module 1 - [Connect the EKS cluster to Calico Cloud](/mod/module-1-connect-calicocloud.md)  
+Module 1 - [Connect the AKS cluster to Calico Cloud](/mod/module-1-connect-calicocloud.md)  
 Module 2 - [Scan Container Images](/mod/module-2-scan-images.md)  
 Module 3 - [Calico Cloud Admission Controller](/mod/module-3-admission-controller.md)  
 Module 4 - [Implement zero-trust access controls and micro-segmentation](/mod/module-4-security-guardrails.md)  
